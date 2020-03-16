@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Kalimat"
+    android:orientation="vertical"
+    android:background="@drawable/gradient2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+
+            <!--            Willkommen-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="20dp"
+                    android:paddingLeft="20dp"
+                    android:text="Selamat Datang"
+                    android:textSize="10pt"
+                    android:textColor="#fff" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="20dp"
+                    android:paddingLeft="20dp"
+                    android:text="  - Willkommen"
+                    android:textSize="10pt"
+                    android:textColor="#fff"/>
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:textSize="8pt"
+                    android:id="@+id/voc10"
+                    android:text="play"
+                    android:textColor="#fff"
+                    android:layout_gravity="right"
+                    android:paddingLeft="7dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/back_image"
+                    android:drawableLeft="@drawable/ic_play_arrow_black_24dp"/>
+
+                <View
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#d9d9d9" />
+            </LinearLayout>
+
+
+            <!--            Ich habe verstanden-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="20dp"
+                    android:paddingLeft="20dp"
+                    android:text="Saya mengerti"
+                    android:textSize="10pt"
+                    android:textColor="#fff" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="20dp"
+                    android:paddingLeft="20dp"
+                    android:text="  - Ich habe verstanden"
+                    android:textSize="10pt"
+                    android:textColor="#fff"/>
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:textSize="8pt"
+                    android:id="@+id/voc0"
+                    android:text="play"
+                    android:textColor="#fff"
+                    android:layout_gravity="right"
+                    android:paddingLeft="7dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/back_image"
+                    android:drawableLeft="@drawable/ic_play_arrow_black_24dp"/>
+                <View
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#d9d9d9" />
+            </LinearLayout>
+
+            <!--            Ich verstehe nicht-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="20dp"
+                    android:paddingLeft="20dp"
+                    android:text="Saya tidak mengerti"
+                    android:textSize="10pt"
+                    android:textColor="#fff" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="20dp"
+                    android:paddingLeft="20dp"
+                    android:text="  - Ich verstehe nicht"
+                    android:textSize="10pt"
+                    android:textColor="#fff"/>
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:textSize="8pt"
+                    android:id="@+id/voc1"
+                    android:text="play"
+                    android:textColor="#fff"
+                    android:layout_gravity="right"
+                    android:paddingLeft="7dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/back_image"
+                    android:drawableLeft="@drawable/ic_play_arrow_black_24dp"/>
+                <View
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#d9d9d9" />
+            </LinearLayout>
+
+            <!--            Ich bin Indonesier-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="20dp"
+                    android:paddingLeft="20dp"
+                    android:text="Saya orang Indonesia"
+                    android:textSize="10pt"
+                    android:textColor="#fff" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="20dp"
+                    android:paddingLeft="20dp"
+                    android:text="  - Ich bin Indonesier"
+                    android:textSize="10pt"
+                    android:textColor="#fff"/>
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:textSize="8pt"
+                    android:id="@+id/voc2"
+                    android:text="play"
+                    android:textColor="#fff"
+                    android:layout_gravity="right"
+                    android:paddingLeft="7dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/back_image"
+                    android:drawableLeft="@drawable/ic_play_arrow_black_24dp"/>
+                <View
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#d9d9d9" />
+            </LinearLayout>
+
+            <!--            Ich muß zum Bahnhof-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="20dp"
+                    android:paddingLeft="20dp"
+                    android:text="Saya mau pergi ke stasiun"
+                    android:textSize="10pt"
+                    android:textColor="#fff" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="20dp"
+                    android:paddingLeft="20dp"
+                    android:text="  - Ich muß zum Bahnhof"
+                    android:textSize="10pt"
+                    android:textColor="#fff"/>
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:textSize="8pt"
+                    android:id="@+id/voc4"
+                    android:text="play"
+                    android:textColor="#fff"
+                    android:layout_gravity="right"
+                    android:paddingLeft="7dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/back_image"
+                    android:drawableLeft="@drawable/ic_play_arrow_black_24dp"/>
+                <View
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#d9d9d9" />
+            </LinearLayout>
+
+            <!--            Ich bin glücklich-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="20dp"
+                    android:paddingLeft="20dp"
+                    android:text="Saya bahagia"
+                    android:textSize="10pt"
+                    android:textColor="#fff" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="20dp"
+                    android:paddingLeft="20dp"
+                    android:text="  - Ich bin glücklich"
+                    android:textSize="10pt"
+                    android:textColor="#fff"/>
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:textSize="8pt"
+                    android:id="@+id/voc5"
+                    android:text="play"
+                    android:textColor="#fff"
+                    android:layout_gravity="right"
+                    android:paddingLeft="7dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/back_image"
+                    android:drawableLeft="@drawable/ic_play_arrow_black_24dp"/>
+                <View
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#d9d9d9" />
+            </LinearLayout>
+
+            <!--            Ich bin traurig-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="20dp"
+                    android:paddingLeft="20dp"
+                    android:text="Saya sedih"
+                    android:textSize="10pt"
+                    android:textColor="#fff" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="20dp"
+                    android:paddingLeft="20dp"
+                    android:text="  - Ich bin traurig"
+                    android:textSize="10pt"
+                    android:textColor="#fff"/>
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:textSize="8pt"
+                    android:id="@+id/voc6"
+                    android:text="play"
+                    android:textColor="#fff"
+                    android:layout_gravity="right"
+                    android:paddingLeft="7dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/back_image"
+                    android:drawableLeft="@drawable/ic_play_arrow_black_24dp"/>
+                <View
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#d9d9d9" />
+            </LinearLayout>
+
+            <!--            Ich liebe dich-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="20dp"
+                    android:paddingLeft="20dp"
+                    android:text="Saya cinta kamu"
+                    android:textSize="10pt"
+                    android:textColor="#fff" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="20dp"
+                    android:paddingLeft="20dp"
+                    android:text="  - Ich

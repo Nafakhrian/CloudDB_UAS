@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Kata"
+    android:orientation="vertical"
+    android:background="@drawable/gradient2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <!--            hallo-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="20dp"
+                    android:paddingLeft="20dp"
+                    android:text="Halo"
+                    android:textSize="10pt"
+                    android:textColor="#fff" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingRight="20dp"
+                        android:paddingLeft="20dp"
+                        android:text="  - Hallo"
+                        android:textSize="10pt"
+                        android:textColor="#fff"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingRight="20dp"
+                        android:paddingLeft="20dp"
+                        android:orientation="vertical">
+                        <Button
+                            android:layout_width="100dp"
+                            android:layout_height="50dp"
+                            android:textSize="8pt"
+                            android:id="@+id/voc0"
+                            android:text="play"
+                            android:textColor="#fff"
+                            android:paddingLeft="7dp"
+                            android:background="@drawable/back_image"
+                            android:layout_gravity="right"
+                            android:drawableLeft="@drawable/ic_play_arrow_black_24dp"/>
+                    </LinearLayout>
+                </LinearLayout>
+                <View
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#d9d9d9" />
+            </LinearLayout>
+
+            <!--            selamat pagi-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="20dp"
+                    android:paddingLeft="20dp"
+                    android:text="Selamat Pagi"
+                    android:textSize="10pt"
+                    android:textColor="#fff" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingRight="20dp"
+                        android:paddingLeft="20dp"
+                        android:text="  - Guten Morgen"
+                        android:textSize="10pt"
+                        android:textColor="#fff"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingRight="20dp"
+                        android:paddingLeft="20dp"
+                        android:orientation="vertical">
+                        <Button
+                            android:layout_width="100dp"
+                            android:layout_height="50dp"
+                            android:textSize="8pt"
+                            android:id="@+id/voc1"
+                            android:text="play"
+                            android:textColor="#fff"
+                            android:paddingLeft="7dp"
+                            android:background="@drawable/back_image"
+                            android:layout_gravity="right"
+                            android:drawableLeft="@drawable/ic_play_arrow_black_24dp"/>
+                    </LinearLayout>
+                </LinearLayout>
+                <View
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#d9d9d9"
+            </LinearLayout>
+
+            <!--            selamat sore-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="20dp"
+                    android:paddingLeft="20dp"
+                    android:text="Selamat Sore"
+                    android:textSize="10pt"
+                    android:textColor="#fff" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingRight="20dp"
+                        androi

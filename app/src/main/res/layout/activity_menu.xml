@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#0984e3"
+    android:paddingLeft="40dp"
+    android:paddingRight="40dp"
+    android:paddingTop="60dp"
+    android:paddingBottom="60dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#74b9ff">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text=" Logout"
+            android:textSize="20sp"
+            android:textColor="#0764ab"
+            android:id="@+id/btnLogout"
+            android:onClick="prosesLogout"
+            android:drawableLeft="@drawable/back_ini"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="#74b9ff">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Ini Menu"
+            android:textColor="#0764ab"
+            android:textSize="30sp"
+            android:layout_marginBottom="30dp"/>
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Mahasiswa"
+            android:id="@+id/mahasiswa"
+            android:textSize="17sp"
+            android:background="#0984e3"
+            android:textColor="#fff"/>
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Buku"
+            android:id="@+id/buku"
+            android:textSize="17sp"
+            android:background="#0984e3"
+            android:textColor="#fff"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>
